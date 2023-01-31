@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.wrapper .logo {
+    background-image: url(./assets/IMAGE.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 24px;
+}
+
+.wrapper nav {
+    display: flex;
+}
+
+.wrapper nav p{
+    font: 400 21px 'Roboto';
+    color: #121212;
+}
+
+.wrapper nav p:not(:last-child) {
+    margin-right: 64px;
+}
