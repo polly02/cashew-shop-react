@@ -1,0 +1,50 @@
+.wrapper{
+    position: relative;
+}
+
+.img{
+    background-image: url(./assets/mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 654px;
+}
+
+.title{
+    position: absolute;
+    left: 30px;
+    top: 27px;
+}
+
+.title h1{
+    font: 400 78px 'Roboto';
+    color: #1E1E1E;
+    width: 545px;
+}
+
+.title p{
+    font: 400 17px 'Roboto';
+    color: #686868;
+    width: 245px;
+    line-height: 23.4px;
+}
+
+.text{
+    position: absolute;
+    top: 377px;
+    left: 280px;
+}
+
+.text h2 {
+    font: 400 50px 'Roboto';
+    color: #121212;
+    width: 233px;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font: 400 16px 'Roboto';
+    color: #686868;
+    width: 295px;
+    line-height: 23.4px;
+}
